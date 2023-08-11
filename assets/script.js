@@ -19,7 +19,6 @@ function passwordLen(){
 
 function includeChars(getCharMsg){
   
-  var count = 0;
   var userInput = prompt(getCharMsg).toLowerCase();
 
   if(userInput === "y"){
@@ -28,12 +27,8 @@ function includeChars(getCharMsg){
 
   } 
   else if (userInput === "n"){
-    
-    count++;
-    console.log("count: ", count);
-
-    return false;
   
+    return false;
   
   }
   
@@ -59,20 +54,38 @@ function generatePassword(){
   var numbers = '0123456789';
   var symbols = '!@#$%^&*(){}[]<>=/,.';
   var allChars = '';
-  
+  var count = 4;
+
   if(incLower) {
     allChars += lower;
+  }
+  else if (!incLower){
+    count--;
   }
   if(incUpper) {
     allChars += upper;
   }
+  else if (!incUpper){
+    count--;
+  }
   if(incNum) {
     allChars += numbers;
+  }
+  else if (!incNum){
+    count--;
   }
   if(incSpec) {
     allChars += symbols;
   }
-  
+  else if (!incSpec){
+    count--;
+  }
+  console.log('count: ', count);
+  if (count <= 0){
+    alert('Please select at least one character type.');
+    return generatePassword();
+  }
+
   var generatedPw = '';
   for (var i = 0; i < passLen; i++){
 
