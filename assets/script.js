@@ -80,7 +80,7 @@ function generatePassword(){
   else if (!incSpec){
     count--;
   }
-  console.log('count: ', count);
+  
   if (count <= 0){
     alert('Please select at least one character type.');
     return generatePassword();
