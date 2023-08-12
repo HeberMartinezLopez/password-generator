@@ -2,7 +2,7 @@
 
 ## Description
 
-This repo contains all the components that build a password generator app. It was built with the intention of creating a password much faster than making one up. In creating this app, I was able to ease and speed the process of creating passwords to sign up for anything.
+This repo contains all the components that build a password generator app. It was built with the intention of creating a password much faster than making one up. In creating this app, I was able to ease and speed up the process of creating passwords to sign up for anything.
 
 ## Installation
 
@@ -12,7 +12,7 @@ N/A.
 
 In order to use this app to generate your own passwords, simply click on the following link, or enter it in a browser.  
 
-
+(https://hebermartinezlopez.github.io/password-generator/)
 
 Upon opening in browser, click on the generate password button.
 
@@ -21,3 +21,4 @@ Upon opening in browser, click on the generate password button.
 Please refer to LICENSE in the repo.
 
 ## Deployed Link
+(https://hebermartinezlopez.github.io/password-generator/)
