@@ -10,9 +10,9 @@ N/A.
 
 ## Usage
 
-In order to use this app to generate your own passwords, simply click on the following link, or enter it in a browser.  
+In order to use this app to generate your own passwords, simply click on the following link, or enter it in a browser.
 
-(https://hebermartinezlopez.github.io/password-generator/)
+([https://hebermartinezlopez.github.io/password-generator/](https://hebermartinezlopez.github.io/password-generator/))
 
 Upon opening in browser, click on the generate password button.
 
@@ -21,4 +21,5 @@ Upon opening in browser, click on the generate password button.
 Please refer to LICENSE in the repo.
 
 ## Deployed Link
-(https://hebermartinezlopez.github.io/password-generator/)
+
+([https://hebermartinezlopez.github.io/password-generator/](https://hebermartinezlopez.github.io/password-generator/))
