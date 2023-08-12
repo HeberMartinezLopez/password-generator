@@ -4,6 +4,18 @@
 
 This repo contains all the components that build a password generator app. It was built with the intention of creating a password much faster than making one up. In creating this app, I was able to ease and speed up the process of creating passwords to sign up for anything.
 
+## Table of Contents
+
+1. [Installation](#installation)
+2. [Usage](#usage)
+   * [Step 1](#step-1-open-browser)
+   * [Step 2](#step-2-press-the-generate-password-button)
+   * [Step 3](#step-3-enter-password-length)
+   * [Step 4](#step-4-select-at-least-one-character-type)
+   * [Step 5](#step-5-password-generated)
+3. [License](#license)
+4. [Deployed-Link](#deployed-link)
+
 ## Installation
 
 N/A.
@@ -14,19 +26,19 @@ In order to use this app to generate your own passwords, simply click on the fol
 
 [https://hebermartinezlopez.github.io/password-generator/](https://hebermartinezlopez.github.io/password-generator/)
 
-#### Step 1. Open Browser.
+### Step 1. Open Browser.
 
 ![alt text](assets/img/home.png)
 
-#### Step 2. Press the Generate Password Button.
+### Step 2. Press the Generate Password Button.
 
 ![alt text](assets/img/home.png)
 
-#### Step 3. Enter Password Length.
+### Step 3. Enter Password Length.
 
 ![alt text](assets/img/length.png)
 
-#### Step 4. Select At Least One Character Type
+### Step 4. Select At Least One Character Type
 
 ![alt text](assets/img/lowercase.png)
 
@@ -36,7 +48,7 @@ In order to use this app to generate your own passwords, simply click on the fol
 
 ![alt text](assets/img/special.png)
 
-#### Step 5. Password Generated!
+### Step 5. Password Generated!
 
 ![alt text](assets/img/generatedPw.png)
 
