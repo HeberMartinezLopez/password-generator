@@ -18,7 +18,7 @@ In order to use this app to generate your own passwords, simply click on the fol
 
 ![alt text] (/assets/img/home.png)
 
-#### Step 2. Press Generate Password Button. 
+#### Step 2. Press the Generate Password Button. 
 
 ![alt text] (/assets/img/home.png)
 
@@ -38,7 +38,7 @@ In order to use this app to generate your own passwords, simply click on the fol
 
 #### Step 5. Password Generated!
 
-![alt text] (/assets/img/generatedPw.png)
+![alt text] (assets/img/generatedPw.png)
 
 ## License
 
