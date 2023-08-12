@@ -12,9 +12,33 @@ N/A.
 
 In order to use this app to generate your own passwords, simply click on the following link, or enter it in a browser.
 
-([https://hebermartinezlopez.github.io/password-generator/](https://hebermartinezlopez.github.io/password-generator/))
+[https://hebermartinezlopez.github.io/password-generator/](https://hebermartinezlopez.github.io/password-generator/)
 
-Upon opening in browser, click on the generate password button.
+#### Step 1. Open Browser. 
+
+![alt text] (/assets/img/home.png)
+
+#### Step 2. Press Generate Password Button. 
+
+![alt text] (/assets/img/home.png)
+
+#### Step 3. Enter Password Length. 
+
+![alt text] (/assets/img/length.png)
+
+#### Step 4. Select At Least One Character Type
+
+![alt text] (/assets/img/lowercase.png)
+
+![alt text] (/assets/img/uppercase.png)
+
+![alt text] (/assets/img/numeric.png)
+
+![alt text] (/assets/img/special.png)
+
+#### Step 5. Password Generated!
+
+![alt text] (/assets/img/generatedPw.png)
 
 ## License
 
@@ -22,4 +46,4 @@ Please refer to LICENSE in the repo.
 
 ## Deployed Link
 
-([https://hebermartinezlopez.github.io/password-generator/](https://hebermartinezlopez.github.io/password-generator/))
+[https://hebermartinezlopez.github.io/password-generator/](https://hebermartinezlopez.github.io/password-generator/)

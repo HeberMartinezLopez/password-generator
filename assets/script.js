@@ -17,6 +17,7 @@ function passwordLen(){
 
 }
 
+// get user input for prompts
 function includeChars(getCharMsg){
   
   var userInput = prompt(getCharMsg).toLowerCase();
@@ -31,7 +32,8 @@ function includeChars(getCharMsg){
     return false;
   
   }
-  
+
+  //  input validation
   else{
 
     alert("Invalid input. Please enter 'Y' or 'N'.");
@@ -41,21 +43,30 @@ function includeChars(getCharMsg){
 
 }
 
+// generate password and print to screen
 function generatePassword(){
 
+  // get password length
   var passLen = passwordLen();
+  // prompts for character type selection
   var incLower = includeChars("Would you like you include lowercase characters? Enter 'Y' for yes 'N' for no");
   var incUpper = includeChars("Would you like you include uppercase characters? Enter 'Y' for yes 'N' for no");
   var incNum = includeChars("Would you like you include numeric characters? Enter 'Y' for yes 'N' for no");
   var incSpec = includeChars("Would you like you include special characters? Enter 'Y' for yes 'N' for no");
 
+  // different character types
   var lower = 'abcdefghijklmnopqrstuvwxyz';
   var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   var numbers = '0123456789';
   var symbols = '!@#$%^&*(){}[]<>=/,.';
+
+  // empty string that will hold desired character types
   var allChars = '';
+  
+  // count held to ensure user picks at least one character type
   var count = 4;
 
+  // obtains user input. If response is no, counter goes down by one.
   if(incLower) {
     allChars += lower;
   }
@@ -80,13 +91,17 @@ function generatePassword(){
   else if (!incSpec){
     count--;
   }
-  
+
+  // alert so user picks at least one character type. starts from beginning prompt if none selected
   if (count <= 0){
     alert('Please select at least one character type.');
     return generatePassword();
   }
 
+  // empty string that will hold generated password
   var generatedPw = '';
+  
+  // for loop used to generate password based on user character type selected
   for (var i = 0; i < passLen; i++){
 
     var randomIndex = Math.floor(Math.random() * allChars.length);
